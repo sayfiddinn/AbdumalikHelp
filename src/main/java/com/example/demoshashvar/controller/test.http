@@ -1,0 +1,12 @@
+POST localhost:8080/api/account/create
+Content-Type: application/json
+
+{
+  "firstName": "shashvar",
+  "surName":"shashvar2",
+  "password": "root123"
+}
+###
+GET localhost:8080/api/account/users
+###
+GET localhost:8080/api/account/user/6ec48be0-b717-4b4c-9ff9-a24ed009d631
